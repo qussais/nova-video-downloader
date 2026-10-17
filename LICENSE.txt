@@ -1,0 +1,36 @@
+Nova Video Downloader - End User License Agreement (EULA)
+Copyright (c) 2026 qqussaai. All rights reserved.
+
+1. GRANT. You may download, install and use Nova Video Downloader (the "Software")
+   free of charge, for personal or commercial use, on your own devices.
+
+2. RESTRICTIONS. Without prior written permission from the copyright holder you may NOT:
+   a. sell, rent, lease, sublicense or otherwise commercialize the Software;
+   b. modify the Software or create derivative works from it;
+   c. decompile, disassemble or reverse engineer the Software, or try to extract its
+      source code, except to the extent applicable law or the licenses of the
+      third-party components expressly permit it despite this restriction;
+   d. redistribute, mirror, re-upload or repackage the installer or the program files,
+      or bundle them with other software. To share the Software, share the link to
+      the official download page instead;
+   e. remove or alter copyright notices, credits, the name or the logo.
+
+3. TRADEMARKS. The name "Nova Video Downloader" and its logo are reserved. No right
+   to use them is granted.
+
+4. THIRD-PARTY COMPONENTS. The Software includes third-party components (including
+   FFmpeg, yt-dlp, Qt and PySide6) that are licensed under their own terms. See
+   THIRD_PARTY_NOTICES.md and the "licenses" folder. Nothing in this agreement limits
+   your rights under those licenses.
+
+5. YOUR CONTENT. You are solely responsible for the content you download and for
+   complying with copyright law and the terms of the websites you use. The Software is
+   not affiliated with or endorsed by any website or platform.
+
+6. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. THE
+   COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
+
+7. TERMINATION. This license ends automatically if you breach it. You must then stop
+   using the Software and delete all copies.
+
+8. CONTACT. X (Twitter): @qqussaai
