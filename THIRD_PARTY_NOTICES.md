@@ -20,6 +20,21 @@ Nova Video Downloader is proprietary freeware (see `LICENSE.txt`). It includes o
 - Used for downloading. License: `licenses/yt-dlp-Unlicense.txt`. https://github.com/yt-dlp/yt-dlp
 - Related: `yt-dlp-ejs`, `brotli` (MIT), `pycryptodomex` (BSD/Public Domain), `websockets` (BSD-3-Clause).
 
+## whisper.cpp and the Whisper model — MIT (optional, downloaded on first use)
+- Used only for "AI auto-subtitles". Nothing is bundled in the installer: when the user turns the option on, the app asks first, then downloads the pinned files and verifies their SHA-256 before use.
+- whisper.cpp release `b5454` (`whisper-bin-x64.zip`) from https://github.com/ggml-org/whisper.cpp — License: `licenses/whisper.cpp-MIT.txt`. Runs as a **separate program** (command-line process).
+- Model `ggml-large-v3-turbo-q5_0.bin` from https://huggingface.co/ggerganov/whisper.cpp, converted from OpenAI Whisper — License: `licenses/openai-whisper-MIT.txt`.
+
+## HT-Demucs vocal separation model — MIT (optional, downloaded on first use)
+- Used only for "Separate vocals from music". Nothing is bundled in the installer: when the user turns the option on, the app asks first, then downloads the pinned file and verifies its SHA-256 before use.
+- Model `htdemucs_ft_vocals_fp16weights.onnx` from https://huggingface.co/StemSplitio/htdemucs-ft-vocals-onnx, an ONNX conversion of Demucs (HT-Demucs) by Meta, https://github.com/facebookresearch/demucs — License: `licenses/demucs-MIT.txt`.
+
+## ONNX Runtime — MIT
+- Bundled (CPU build) to run the separation model. License: `licenses/onnxruntime-MIT.txt`, third-party notices: `licenses/onnxruntime-ThirdPartyNotices.txt`. https://github.com/microsoft/onnxruntime
+
+## NumPy — BSD-3-Clause
+- Bundled for audio processing. License: `licenses/numpy-BSD-3-Clause.txt`. https://numpy.org
+
 ## Other components
 | Component | License |
 |---|---|
