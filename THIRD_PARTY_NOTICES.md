@@ -18,7 +18,7 @@ Nova Video Downloader is proprietary freeware (see `LICENSE.txt`). It includes o
 
 ## yt-dlp — Unlicense
 - Used for downloading. License: `licenses/yt-dlp-Unlicense.txt`. https://github.com/yt-dlp/yt-dlp
-- Related: `yt-dlp-ejs`, `brotli` (MIT), `pycryptodomex` (BSD/Public Domain), `websockets` (BSD-3-Clause).
+- Related packages (yt-dlp-ejs, Brotli, PyCryptodomex, websockets) are listed under "Other components" below.
 
 ## whisper.cpp and the Whisper model — MIT (optional, downloaded on first use)
 - Used only for "AI auto-subtitles". Nothing is bundled in the installer: when the user turns the option on, the app asks first, then downloads the pinned files and verifies their SHA-256 before use.
@@ -35,12 +35,27 @@ Nova Video Downloader is proprietary freeware (see `LICENSE.txt`). It includes o
 ## NumPy — BSD-3-Clause
 - Bundled for audio processing. License: `licenses/numpy-BSD-3-Clause.txt`. https://numpy.org
 
+## Tajawal font — SIL OFL 1.1
+- Bundled in the app (Regular, Medium, Bold) and used for the interface. Copyright 2018 Boutros International. License: `licenses/Tajawal-OFL-1.1.txt`. https://github.com/googlefonts/tajawal
+
 ## Other components
+Full license texts for the Python packages below are in `licenses/python-packages-licenses.txt`.
+
 | Component | License |
 |---|---|
-| Python | PSF License |
+| Python runtime (including its bundled OpenSSL, libffi, SQLite, expat) | PSF License; OpenSSL Apache-2.0; libffi MIT; SQLite public domain; expat MIT |
 | certifi | MPL-2.0 (`licenses/MPL-2.0.txt`), https://github.com/certifi/python-certifi |
 | requests | Apache-2.0 |
 | urllib3 | MIT |
+| charset-normalizer | MIT |
+| idna | BSD-3-Clause |
+| websockets | BSD-3-Clause |
+| Brotli | MIT |
+| PyCryptodomex | BSD-2-Clause and Public Domain |
+| yt-dlp-ejs (JavaScript helpers for yt-dlp) | Unlicense AND MIT AND ISC |
 | imageio-ffmpeg | BSD-2-Clause |
+| NumPy, including its bundled OpenBLAS (`licenses/numpy-BSD-3-Clause.txt`) | BSD-3-Clause and others, listed in that file |
+| SymPy, mpmath, flatbuffers (installed with ONNX Runtime) | BSD-3-Clause, BSD-3-Clause, Apache-2.0 |
+| packaging | Apache-2.0 OR BSD-2-Clause |
+| setuptools | MIT |
 | PyInstaller (bootloader) | GPL-2.0 with exception allowing use for any program |
